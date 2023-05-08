@@ -5,3 +5,8 @@ sklearn
 scikit-learn
 streamlit
 Pillow
+U dataprep
+pyngrok
+pydotplus
+line_profiler
+codecarbon
