@@ -60,7 +60,7 @@ if app_mode == 'Introduction':
   st.markdown(" **success**: Indicator of a sucessful activity conclusion")
   st.markdown(" **item**: Item name as seen in game")
   st.markdown(" **item_type**: Item type descriptor (vehicle, property, weapon)")
-  st.markdown(" **item_sub_type**: Secondary item descriptor (car, helicopter, garage,...")
+  st.markdown(" **item_sub_type**: Secondary item descriptor (car, helicopter, garage,...)")
   st.markdown(" **money_spent**: GTA$ spent")
 
   ### The st.markdown and st.dataframe functions display the descriptive statistics of the data set.
