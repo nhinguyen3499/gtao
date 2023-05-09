@@ -92,7 +92,11 @@ if app_mode == "Visualization":
   from pandas_profiling import ProfileReport
   profile = ProfileReport(df, title="Report")
   st.components.v1.html(profile.to_html(), width=1000, height=500, scrolling=True)
-
+  
+  ###Feature importance graph 
+  image_2 = Image.open('featureimportance.png')
+  st.image(image_2)
+  
   ### Boxplot: relationship between rp_earned and success
   st.subheader('Boxplot of Experience Earned vs. Success and Non-Success 💡')
   fig, ax = plt.subplots(figsize=(10, 5))
