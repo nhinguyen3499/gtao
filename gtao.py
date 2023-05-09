@@ -86,9 +86,6 @@ if app_mode == "Visualization":
   ### The pd.read_csv() function loads a CSV file of Grand Theft Auto Online's activity played data into a Pandas DataFrame called "df".
   df = pd.read_csv('recorded_stats.csv')
 
-  ### The st.write() function displays the df DataFrame in the Streamlit application.
-  st.write(df)
-
   ### Create report on streamlit
   from dataprep.eda import create_report
   create_report(df)
